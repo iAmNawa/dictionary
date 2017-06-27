@@ -1,7 +1,8 @@
 {
   "dependencies": {
-    "express":"",
-    "compression":"",
-    "body-parser":""
+    "body-parser": "",
+    "compression": "",
+    "express": "",
+    "nightmare": "^2.10.0"
   }
 }

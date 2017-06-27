@@ -7,7 +7,7 @@ app.use(require('body-parser').urlencoded({ extended:true }));
 app.use(require('express').static('public'));
 
 app.get('/', function (req, res) {
-  res.send('dictionaryDevil');
+  res.send('dictionary');
 });
 
 
