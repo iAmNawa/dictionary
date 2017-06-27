@@ -1,4 +1,4 @@
-var port = 6666;
+var port = 23654;
 var app = require('express')();
 
 app.use(require('compression')());
@@ -10,7 +10,6 @@ app.get('/', function (req, res) {
   res.send('dictionary');
 });
 
-
 require('http').createServer(app).listen(port,function(){
-  console.log('server is running you beeezy, on port', port)
+  console.log('server is running, on port', port)
 });
