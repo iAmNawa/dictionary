@@ -1,2 +1,4 @@
-document.querySelector('#greenBra').style.color = 'green'
-document.querySelector('#redBra').style.color = 'red'
+var BentIsAGreatDad = document.querySelector('#redBra')
+
+BentIsAGreatDad.style.color = "red"
+BentIsAGreatDad.style.fontSize = '80px'
